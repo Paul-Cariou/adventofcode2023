@@ -1,5 +1,5 @@
 def day1_part1():
-    f=open("C:\\ESILV\\A4\\Calendar\\day1.txt","r")
+    f=open("day1.txt","r")
  
     total=0
     right_order=True
@@ -19,7 +19,7 @@ def day1_part1():
 numbers={"one":1, "two":2, "three":3, "four":4, "five":5, "six":6, "seven":7, "eight":8, "nine":9}
 
 def day1_part2():
-    f=open("C:\\ESILV\\A4\\Calendar\\day1.txt","r")
+    f=open("day1.txt","r")
     
     total=0
     right_order=True
