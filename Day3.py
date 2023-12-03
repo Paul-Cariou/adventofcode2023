@@ -42,7 +42,7 @@ def adjacent(previous_line,actual_line,next_line):
 def day3_part1(): 
     
     res=0   
-    with open("C:\\ESILV\\A4\\Calendar\\day3.txt","r") as file:
+    with open("day3.txt","r") as file:
         
         actual_line = file.readline().strip()
         previous_line = "."*len(actual_line)
@@ -97,7 +97,7 @@ def gear_nbrs(previous_nbr,actual_nbr,next_nbr,star_index, length):
 def day3_part2(): 
     
     res=0   
-    with open("C:\\ESILV\\A4\\Calendar\\day3.txt","r") as file:
+    with open("day3.txt","r") as file:
         
         actual_line = file.readline().strip()
         length = len(actual_line)
