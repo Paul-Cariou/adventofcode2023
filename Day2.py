@@ -3,7 +3,7 @@ import re
 total_count = {"blue":14, "red":12, "green":13}
 
 def day2_part1():  
-    f = open("C:\\ESILV\\A4\\Calendar\\day2.txt")
+    f = open("day2.txt")
     
     res = 0
     for l in f:
@@ -36,7 +36,7 @@ def day2_part1():
 
 
 def day2_part2():
-    f = open("C:\\ESILV\\A4\\Calendar\\day2.txt")
+    f = open("day2.txt")
     
     res = 0
     for l in f:
